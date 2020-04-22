@@ -13,3 +13,4 @@ run_analysis.R - R script necessary to process raw data into tidy dataset.
   -Creates a tidy data set with the average of each variable for each activity and each subject
   
 tidy_data.csv - is the tidy dataset in csv format.
+tidy_data.txt - is the tidy dataset in txt format.
