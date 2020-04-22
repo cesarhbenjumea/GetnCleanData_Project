@@ -1,1 +1,15 @@
 This is a list of files necessary for the submission of the course project Getting and Cleaning data
+
+Codebook_text.txt	- contains infor
+
+README - This explains how all of the scripts and files work and how they are connected.
+
+run_analysis.R - R script necessary to process raw data into tidy dataset.
+  In summary, run_analysis do the following steps:
+  -Merges the training and the test sets to create one data set.
+  -Labels the data set with descriptive variable names.
+  -Extracts only the measurements on the mean and standard deviation for each measurement.
+  -Uses descriptive activity names to name the activities in the data set
+  -Creates a tidy data set with the average of each variable for each activity and each subject
+  
+tidy_data.csv - is the tidy dataset in csv format.
