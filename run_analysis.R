@@ -66,7 +66,7 @@ table(my_data2[,2]) # Everything looks fine
 head(names(my_data2))
 
 # ---------------------- 5 ----------------------------------------------------------------------------
-# ------------- Add varnames --------------------------------------------------------------------------
+# ------------- Aggregate Data --------------------------------------------------------------------------
 # Create a tidy data set with the average of each variable for each activity and each subject.
 tidy_data <- aggregate( . ~ subject + activity, data = my_data2, FUN = mean )
 
