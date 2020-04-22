@@ -71,5 +71,5 @@ head(names(my_data2))
 tidy_data <- aggregate( . ~ subject + activity, data = my_data2, FUN = mean )
 
 # Export tidy data set to excel file
-write.csv(tidy_data, "tidy_data.csv", row.names = FALSE )
+write.table(tidy_data, "tidy_data.txt", row.names = FALSE )
 
